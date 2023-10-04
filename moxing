@@ -1,199 +1,199 @@
-local CoreGui = game:GetService("StarterGui")CoreGui:SetCore("SendNotification", {    Title = "阴星🇨🇳",    Text = "脚本暂时免费",    Duration = 5, })print("白名单用户")		local vu = game:GetService("VirtualUser")		game:GetService("Players").LocalPlayer.Idled:connect(function()		   vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)		   wait(1)		   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)		end)
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "阴星脚本", HidePremium = false, SaveConfig = false, IntroText = "欢迎使用", ConfigFolder = "欢迎使用"})
-
 local Tab = Window:MakeTab({
-    Name = "阴星脚本公告",
-    Icon = "rbxassetid://7734068321",
-    PremiumOnly = false
+Name=“极速”
+Icon = "rbxassetid://7734068321",
+
+PremiumOnly = false
+结束
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+结束
 })
 
-Tab:AddParagraph("作者","阴星🇨🇳")
-Tab:AddLabel("作者QQ：368483193")
-Tab:AddLabel("QQ群：390089673")
-Tab:AddLabel("猫姐永久免费脚本测试关永久免费徒弟朋友免费")
+Name=“重力设置”
+Default = "",
+TextDisappear = true,
+结束
 
-local Tab = Window:MakeTab({
-    Name = "常用",
-    Icon = "rbxassetid://7734068321",
-    PremiumOnly = false
+Name=“爬墙”
+回调=function（）
+结束
+结束
 })
 Tab:AddButton({
-	Name = "飞行",
-	Callback = function()
+Name=“甩飞别人”
+回调=function（）
       	loadstring(game:HttpGet("https://pastebin.com/raw/U27yQRxS"))()
-  	end    
+结束
 })
 
 Tab:AddTextbox({
-	Name = "移动速度",
-	Default = "",
-	TextDisappear = true,
-	Callback = function(Value)
-		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
-	end	 
+Icon = "rbxassetid://7734068321",
+PremiumOnly = false
+Name=[hua监狱人生]
+回调=function（）
+结束
+local Tab = Window:MakeTab({
 })
  
 Tab:AddTextbox({
-	Name = "跳跃高度",
-	Default = "",
-	TextDisappear = true,
-	Callback = function(Value)
-		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
-	end	 
+Name=“极速”
+Icon = "rbxassetid://7734068321",
+PremiumOnly = false
+结束
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+结束
 })
 
 Tab:AddTextbox({
-	Name = "重力设置",
-	Default = "",
-	TextDisappear = true,
-	Callback = function(Value)
-		game.Workspace.Gravity = Value
-	end
+Name=“重力设置”
+Default = "",
+TextDisappear = true,
+结束
+Name=“爬墙”
+回调=function（）
 })
 
 Tab:AddButton({
-	Name = "人物无敌",
-	Callback = function()
+Icon = "rbxassetid://7734068321",
+PremiumOnly = false
      loadstring(game:HttpGet('https://pastebin.com/raw/H3RLCWWZ'))()
-	end    
+Name=[hua监狱人生]
 })
 
 Tab:AddButton({
-	Name = "变成蛇",
-	Callback = function()
+回调=function（）
+结束
 loadstring(game:HttpGet(('https://pastefy.ga/tWBTcE4R/raw'),true))()
-	end
+local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "踏空行走",
-	Callback = function()
+Name=“监狱、”
+Icon = "rbxassetid://7734068321",
 loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Float'))()
-	end
+PremiumOnly = false
 })
 
 Tab:AddButton({
-	Name = "爬墙",
-	Callback = function()
+Name=[hua监狱人生]
+回调=function（）
 loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
-end
+结束
 })
 
 Tab:AddButton({
-	Name = "防止掉线（反挂机）",
-	Callback = function()
-	print("Anti Afk On")
-		local vu = game:GetService("VirtualUser")
+local Tab = Window:MakeTab({
+Name=“极速”
+Icon = "rbxassetid://7734068321",
+PremiumOnly = false
 		game:GetService("Players").LocalPlayer.Idled:connect(function()
 		   vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 		   wait(1)
 		   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 		end)
-  	end
-})
-
-Tab:AddButton({
-	Name = "甩飞别人",
-	Callback = function()
-     loadstring(game:HttpGet("https://pastebin.com/raw/GnvPVBEi"))()
-  	end    
-})
-
-
-local Tab = Window:MakeTab({
-	Name = "监狱、",
-	Icon = "rbxassetid://7734068321",
-	PremiumOnly = false
-})
-
-Tab:AddButton({
-  Name = "HUA 监狱人生 ",
-  Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();
-  end
-})
-
-local Tab = Window:MakeTab({
-Name ="极速",
-Icon ="rbxassetid://7734068321",
-PremiumOnly =虚假的
-})
-Tab:AddButton({
-Name ="开启卡宠",
-回调=功能()
-    loadstring(game:HttpGet("https://pastebin.com/raw/uR6azdQQ"))()
-    结束
-})
-
-Tab:AddButton({
-Name ="自动",
-回调=功能()
-    loadstring(game:HttpGet("https://pastebin.com/raw/AyeCYbT6"))()
-    结束
-})
-local Tab = Window:MakeTab({
-Name ="力量",
-Icon ="rbxassetid://7734068321",
-PremiumOnly =虚假的
-})
-
-Tab:AddButton({
-    Name = "力量传奇修改数值假的只有自看见",
-    Callback = 功能()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/main/main/Musclas%20Legenos.lua'))()
-    结束
-})
-
-Tab:AddButton({
-    Name = "力量传奇",
-    Callback = 功能()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/BoaHacker/ROBLOX/main/cheat', 真正的))()
-    结束
-})
-Tab:AddButton({
-	Name = "跟踪玩家",
-	Callback = 功能()
-      	loadstring(game:HttpGet("https://pastebin.com/raw/F9PNLcXk"))()
-  	结束
-})
-
-Tab:AddButton({
-	Name = "吸取全部玩家",
-	Callback = 功能()
-     loadstring(game:HttpGet('https://pastebin.com/raw/hQSBGsw2'))()
-  	结束    
-})
-回调=功能（）
 结束
-Name=“复制秘钥复制完就可以乱杀了 you you you you you”，
-回调=f
 })
+
 Tab:AddButton({
-	Name = "doors",
-	Callback = 功能()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
-  	结束    
+Name=“甩飞别人”
+回调=function（）
+     loadstring(game:HttpGet("https://pastebin.com/raw/GnvPVBEi"))()
+结束
 })
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window=OrionLib:MakeWindow（{Name=“阴星脚本”，HidePremium=虚假的，SaveConfig=虚假的，IntroText=“mayomobilemavolude”，ConfigFolder=“mayou”}）
-  Callback = 功能()
-    loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\117\72\72\112\56\102\122\83"))()
+
+
 local Tab = Window:MakeTab({
-Name=“阴星脚本公告”，
+Name=“监狱、”
 Icon = "rbxassetid://7734068321",
-PremiumOnly = 虚假的
-	Icon = "rbxassetid://7734068321",
-Tab:addsection（“作者”，“作者 you you you”）
-Tab:AddLabel（“作者 qq:368483193”）
-
-Tab:AddLabel（“猫姐永久免费脚本测试关永久免费徒弟朋友免费”）
-  Name = "1",
-  Callback = 功能()
-local Tab = Window:MakeTab({
-Name=“常用”，
+PremiumOnly = false
 })
 
 Tab:AddButton({
-   Name = "复制秘钥复制完就可以乱杀了😡😡😡",
-   Callback = f
+Name=[hua监狱人生]
+回调=function（）
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();
+结束
+})
+
+local Tab = Window:MakeTab({
+Name=“极速”
+Icon = "rbxassetid://7734068321",
+PremiumOnly = false
+})
+Tab:AddButton({
+Name=“最强战场”
+在这里输入文件内容
+    loadstring(game:HttpGet("https://pastebin.com/raw/uR6azdQQ"))()
+Icon = "rbxassetid://7734068321",
+})
+
+Tab:AddButton({
+在这里输入文件内容
+PremiumOnly = false
+    loadstring(game:HttpGet("https://pastebin.com/raw/AyeCYbT6"))()
+在这里输入文件内容
+})
+在这里输入文件内容
+在这里输入文件内容
+Name = "1",
+在这里输入文件内容
+})
+
+Tab:AddButton({
+回调=function（）
+在这里输入文件内容
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/main/main/Musclas%20Legenos.lua'))()
+在这里输入文件内容
+})
+
+Tab:AddButton({
+结束
+在这里输入文件内容
+在这里输入文件内容
+在这里输入文件内容
+})
+Tab:AddButton({
+结束
+local Tab = Window:MakeTab({
+      	loadstring(game:HttpGet("https://pastebin.com/raw/F9PNLcXk"))()
+Name = "doos",
+})
+
+Tab:AddButton({
+Icon = "rbxassetid://7734068321",
+PremiumOnly = false
+     loadstring(game:HttpGet('https://pastebin.com/raw/hQSBGsw2'))()
+结束
+})
+在这里输入文件内容
+在这里输入文件内容
+local Tab = Window:MakeTab({
+在这里输入文件内容
+})
+local Tab = Window:MakeTab({
+Name = "doos",
+Icon = "rbxassetid://7734068321",
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+PremiumOnly = false
+})
+结束
+Name=“重力设置”
+Default = "",
+    loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\117\72\72\112\56\102\122\83"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+TextDisappear = true,
+})
+回调=函数（值）
+Icon = "rbxassetid://7734068321",
+Name=“微山”
+回调=function（）
+
+loadstring（游戏:HttpGet）（"\104\116\115\115 58\47\47\47\112\97\115\115\115\116\101\101\91\111\117\82\112\56\102\122\83"）（）
+结束
+})
+local Tab = Window:MakeTab({
+Name=“最强战场”
+结束
+
+Name=“踏空行走”
+回调=function（）
+})
